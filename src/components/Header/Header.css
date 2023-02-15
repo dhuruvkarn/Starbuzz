@@ -1,4 +1,4 @@
-.mainDiv {
+.headerMainDiv {
   width: 100%;
   height: 50px;
   display: flex;
@@ -6,7 +6,7 @@
   background-color: white;
   justify-content: space-between;
 }
-.leftDiv {
+.headerLeftDiv {
   margin-left: 2rem;
   width: 10%;
   text-align: left;
@@ -14,8 +14,7 @@
   align-items: center;
   font-weight: 500;
 }
-.rightDiv {
-  margin-right: 2rem;
+.headerRightDiv {
   width: 20%;
   display: flex;
   align-items: center;
@@ -23,16 +22,16 @@
   gap: 0.5rem;
   flex-direction: row;
 }
-.notifyimage,
-.avatarimage {
+.headerNotifyimage,
+.headerAvatarimage {
   width: 20%;
   border-right: 1.5px solid #a0a0a0;
 }
-.settingimage {
+.headerSettingimage {
   width: 20%;
 }
 
-.imageStyle {
+.headerImageStyle {
   height: 21px;
   width: 21px;
   color: #a0a0a0;

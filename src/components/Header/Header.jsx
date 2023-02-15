@@ -6,17 +6,17 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 function Header() {
   return (
     <>
-      <div className="mainDiv">
-        <div className="leftDiv">9GAG Inc.</div>
-        <div className="rightDiv">
-          <div className="notifyimage">
-            <IoMdNotificationsOutline className="imageStyle" />
+      <div className="headerMainDiv">
+        <div className="headerLeftDiv">9GAG Inc.</div>
+        <div className="headerRightDiv">
+          <div className="headerNotifyimage">
+            <IoMdNotificationsOutline className="headerImageStyle" />
           </div>
-          <div className="avatarimage">
-            <RxAvatar className="imageStyle" />
+          <div className="headerAvatarimage">
+            <RxAvatar className="headerImageStyle" />
           </div>
-          <div className="settingimage">
-            <FiSettings className="imageStyle" />
+          <div className="headerSettingimage">
+            <FiSettings className="headerImageStyle" />
           </div>
         </div>
       </div>

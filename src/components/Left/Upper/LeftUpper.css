@@ -1,0 +1,95 @@
+.leftUpperMainDiv {
+  /* border: 2px solid red; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+.leftUpperHeadingDiv {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  gap: 0.5rem;
+}
+.leftUpperHeading {
+  font-weight: 450;
+}
+.leftUpperHeadingImage {
+  height: 20px;
+  width: 20px;
+  color: #757575;
+  margin-top: 0.2rem;
+}
+.leftUpperCentreDiv {
+  width: 80%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.leftUpperCentreDiv:hover {
+  background-color: #f2f6fa;
+}
+
+.leftUpperInsideCentreDiv {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-direction: row;
+  height: 40px;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.leftUpperInsideCentreDivImageStyle {
+  height: 25px;
+  width: 25px;
+  color: #a0a0a0;
+}
+.leftUpperInsideCentreDivCentreText {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 0.2rem;
+  text-align: left;
+  /* border: 1px solid red; */
+}
+.leftUpperInsideCentreDivCentreTextHeading {
+  font-weight: bold;
+}
+.leftUpperInsideCentreDivCentreTextSubHeading {
+  color: #757575;
+}
+.leftUpperInsideCentreDivLastText {
+  border: 1px solid #a0a0a0;
+  padding: 5px;
+  width: 20%;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.leftUpperCentreDiv:hover .leftUpperInsideCentreDivLastText {
+  background-color: #ff5902;
+  color: white;
+}
+.leftUpperLastDiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+.leftUpperLastDivImageDiv {
+  display: flex;
+  flex-direction: column;
+}
+.leftUpperLastDivImage {
+  height: 25px;
+  width: 25px;
+}

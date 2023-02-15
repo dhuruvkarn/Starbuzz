@@ -1,0 +1,28 @@
+.bodyMainDiv {
+  /* border: 2px solid red; */
+  /* height: 800px; */
+  height: auto;
+  background-color: #f2f6fa;
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  flex-direction: row;
+}
+.bodyRigthDiv {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 25%;
+  border: 1px solid teal;
+}
+.bodyCentreDiv {
+  margin-top: 2rem;
+  width: 50%;
+  border: 1px solid teal;
+}
+.bodyLeftDiv {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  width: 25%;
+  height: auto;
+  /* border: 1px solid red; */
+}
