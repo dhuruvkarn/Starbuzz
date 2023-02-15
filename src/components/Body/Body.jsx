@@ -8,11 +8,16 @@ function Body() {
   return (
     <>
       <div className="bodyMainDiv">
+        {/* right */}
         <div className="bodyRigthDiv">
           <RightUpper />
           <RightLower />
         </div>
+
+        {/* centre */}
         <div className="bodyCentreDiv"></div>
+
+        {/* left */}
         <div className="bodyLeftDiv">
           <LeftUpper />
           <LeftLower />
