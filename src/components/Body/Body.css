@@ -11,8 +11,9 @@
 .bodyRigthDiv {
   margin-top: 2rem;
   margin-left: 2rem;
-  width: 25%;
-  border: 1px solid teal;
+  width: 18%;
+  height: auto;
+  /* border: 1px solid teal; */
 }
 .bodyCentreDiv {
   margin-top: 2rem;
@@ -24,5 +25,4 @@
   margin-top: 2rem;
   width: 25%;
   height: auto;
-  /* border: 1px solid red; */
 }

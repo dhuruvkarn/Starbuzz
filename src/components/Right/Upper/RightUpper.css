@@ -1,0 +1,86 @@
+.rightUpperMainDiv {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+}
+.rightUppeLogoDiv {
+  /* border: 2px solid teal; */
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.rightUppeLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  height: 8rem;
+  width: 8rem;
+  margin: auto;
+  text-align: center;
+  background-color: #f7f7f7;
+  font-size: 50px;
+  font-weight: 450;
+}
+.rightUppeLogoText {
+  font-weight: 550;
+  width: 100%;
+  font-size: 18px;
+}
+.rightUppeFollowerDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #a0a0a0;
+}
+.rightUppeFollowerFirstDiv {
+  border-left: 1px solid #a0a0a0;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.rightUppeFollowerFirstDivHeading {
+  font-size: 18px;
+  color: #727378;
+  font-weight: 450;
+}
+.rightUppeFollowerFirstDivSubHeading {
+  font-size: 15px;
+  color: #a0a0a0;
+}
+.rightUppeScoreFirstDivHeading,
+.rightUppeScoreSecondDivHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+  border-radius: 9999px;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  border: 4px solid #f7f7f7;
+  border-bottom: 4px solid #ff5902;
+  border-left: 4px solid #ff5902;
+  font-size: 18px;
+  font-weight: 450;
+}
+.rightUppeScoreSecondDivHeading {
+  border-right: 4px solid #ff5902;
+}
+.rightUppeScoreFirstDivHeading {
+  border-top: 4px solid #ff5902;
+}
+.rightUppeScoreDiv {
+  padding-bottom: 1rem;
+}

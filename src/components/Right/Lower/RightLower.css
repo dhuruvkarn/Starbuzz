@@ -1,0 +1,75 @@
+.rightLowerAudienceCredibilityMainDiv {
+  margin-top: 2rem;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.rightLowerAudienceCredibilityMainDivHeading {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 80%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+.rightLowerAudienceCredibilityScoreDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.5rem;
+}
+.rightLowerAudienceCredibilityScore {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  height: 4rem;
+  width: 4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+  border: 4px solid #f7f7f7;
+  border-bottom: 4px solid #ff5902;
+  border-top: 4px solid #ff5902;
+  border-left: 4px solid #ff5902;
+  font-size: 18px;
+  font-weight: 450;
+}
+.rightLowerAudienceCredibilityScoreText {
+  width: 55%;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 2rem;
+  color: #a0a0a0;
+}
+
+.rightLowerLikeDiv {
+  border-top: 1px solid #a0a0a0;
+  margin-top: 1rem;
+  display: flex;
+  width: 90%;
+  margin-left: 1rem;
+  flex-direction: row;
+}
+
+.rightLowerLike {
+  width: 50%;
+  border-left: 1px solid #a0a0a0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+.rightLowerLikeHeading {
+  font-weight: 450;
+  font-size: 15px;
+}
+.rightLowerLikeSubHeading {
+  font-weight: 450;
+  font-size: 12px;
+  color: #a0a0a0;
+}
