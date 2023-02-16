@@ -1,0 +1,90 @@
+.ageSplitMainDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 100%;
+  height: 300px;
+  /* border: 2px solid red; */
+}
+.ageSplitPieChartDiv {
+  /* border: 2px solid teal; */
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 5px;
+}
+.ageSplitPieChartDivHeadingDiv {
+  /* border: 2px solid brown; */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+  width: 90%;
+}
+.ageSplitPieChartDivHeading {
+  font-weight: 450;
+}
+.ageSplitPieChartDivHeadingImage {
+  color: #a0a0a0;
+}
+
+.ageSplitPieChartLabel {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.pieChartDotDiv {
+  display: flex;
+  margin-right: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pieChartDot {
+  color: #ff5902;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+.pieChartDotFemale {
+  color: #ff9c66;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+}
+.ageSplitBarChartDiv {
+  /* border: 2px solid red; */
+  width: 65%;
+  background-color: white;
+  border-radius: 10px;
+}
+.ageSplitBarChartHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+
+  gap: 0.5rem;
+  justify-content: space-between;
+  width: 90%;
+}
+.ageSplitBarChartDivHeadingDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+
+  width: 50%;
+}
+.barchart {
+  margin-top: -2.5rem;
+}

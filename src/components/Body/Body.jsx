@@ -1,36 +1,28 @@
 import React from "react";
 import "./Body.css";
-import Chart from "react-apexcharts";
 import LeftUpper from "../Left/Upper/LeftUpper";
 import LeftLower from "../Left/Lower/LeftLower";
 import RightUpper from "../Right/Upper/RightUpper";
 import RightLower from "../Right/Lower/RightLower";
+import AgeSplit from "components/Chart/AgeSplit/AgeSplit";
+import Audience from "components/Chart/Audience/Audience";
+import Gender from "components/Chart/Gender/Gender";
+
 function Body() {
-  const options = {
-    series: [53, 48],
-    labels: ["Female", "Male"],
-    colors: ["#ff9c66", "#ff5902"],
-  };
   return (
     <>
       <div className="bodyMainDiv">
-        {/* right */}
         <div className="bodyRigthDiv">
           <RightUpper />
           <RightLower />
         </div>
 
-        {/* centre */}
         <div className="bodyCentreDiv">
-          <Chart
-            options={options}
-            series={options.series}
-            type="pie"
-            width="100%"
-          />
+          <Gender />
+          <AgeSplit />
+          <Audience />
         </div>
 
-        {/* left */}
         <div className="bodyLeftDiv">
           <LeftUpper />
           <LeftLower />
