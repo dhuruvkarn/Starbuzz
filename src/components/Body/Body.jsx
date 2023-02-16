@@ -7,6 +7,8 @@ import RightLower from "../Right/Lower/RightLower";
 import AgeSplit from "components/Chart/AgeSplit/AgeSplit";
 import Audience from "components/Chart/Audience/Audience";
 import Gender from "components/Chart/Gender/Gender";
+import MonthTrend from "components/Chart/MonthTrend/MonthTrend";
+import Popular from "components/Popular/Popular";
 
 function Body() {
   return (
@@ -18,9 +20,11 @@ function Body() {
         </div>
 
         <div className="bodyCentreDiv">
+          <MonthTrend />
           <Gender />
           <AgeSplit />
           <Audience />
+          <Popular />
         </div>
 
         <div className="bodyLeftDiv">

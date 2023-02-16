@@ -1,51 +1,35 @@
 import React from "react";
-import "./Gender.css";
+import "./MonthTrend.css";
 import Chart from "react-apexcharts";
 import { BsPerson } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-function Gender() {
+function MonthTrend() {
   var options = {
     series: [
       {
-        data: [10, 20, 30, 40, 50, 20, 30, 20],
-      },
-      {
-        data: [7, 10, 20, 30, 40, 10, 20, 30],
+        data: [
+          52000000, 52500000, 53500000, 54000000, 54500000, 55500000, 56500000,
+          54500000,
+        ],
       },
     ],
-
-    theme: {
-      monochrome: {
-        enabled: true,
-        color: "#ff5902",
-        shadeTo: "light",
-        shadeIntensity: 0.65,
-      },
-    },
     plotOptions: {
       bar: {
-        horizontal: true,
+        horizontal: false,
+      },
+    },
+    chart: {
+      type: "area",
+      zoom: {
+        enabled: false,
       },
     },
     dataLabels: {
       enabled: false,
     },
     stroke: {
-      width: 1,
-      colors: ["#ff9c66"],
-    },
-    xaxis: {
-      categories: [
-        "45-64",
-        "35-44",
-        "25-34",
-        "45-64",
-        "35-44",
-        "25-34",
-        "18-24",
-        "13-17",
-      ],
+      curve: "straight",
     },
     grid: {
       xaxis: {
@@ -59,7 +43,33 @@ function Gender() {
         },
       },
     },
+    xaxis: {
+      categories: [
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12",
+      ],
+    },
+
+    theme: {
+      monochrome: {
+        enabled: true,
+        color: "#ff5902",
+        shadeTo: "light",
+        shadeIntensity: 0.65,
+      },
+    },
+    legend: {
+      horizontalAlign: "right",
+    },
   };
+
   return (
     <>
       <div className="genderMainDiv">
@@ -69,32 +79,25 @@ function Gender() {
               <BsPerson className="genderMainHeadingLeftDivImage" />
             </div>
             <div className="genderMainHeadingLeftDivHeading">
-              Genders by Age Groups
+              Followers Trends by Month
             </div>
           </div>
-          {/* <div className="genderMainHeadingRightDiv"></div> */}
           <div className="genderMainHeadingRightDiv">
-            <div className="genderMainHeadingRightImageDiv">
-              <span>
-                <RxDotFilled className="pieChartDot" />
-              </span>
-              <span>Male</span>
-            </div>
             <div className="genderMainHeadingRightImageDiv">
               <span>
                 <RxDotFilled className="pieChartDotFemale" />
               </span>
-              <span>Female</span>
+              <span>Followers</span>
             </div>
           </div>
         </div>
         {/* chart */}
         <div className="genderMainChartDiv">
-          <Chart options={options} series={options.series} type="bar" />
+          <Chart options={options} series={options.series} type="area" />
         </div>
       </div>
     </>
   );
 }
 
-export default Gender;
+export default MonthTrend;

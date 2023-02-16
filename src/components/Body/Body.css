@@ -1,11 +1,10 @@
 .bodyMainDiv {
-  /* border: 2px solid red; */
-  /* height: 800px; */
   height: auto;
   background-color: #f2f6fa;
   display: flex;
   width: 100%;
   gap: 1rem;
+  margin-bottom: 4rem;
   flex-direction: row;
 }
 .bodyRigthDiv {
@@ -13,16 +12,17 @@
   margin-left: 2rem;
   width: 18%;
   height: auto;
-  /* border: 1px solid teal; */
 }
 .bodyCentreDiv {
   margin-top: 2rem;
   width: 50%;
-  border: 1px solid teal;
 }
 .bodyLeftDiv {
   margin-right: 2rem;
   margin-top: 2rem;
   width: 25%;
   height: auto;
+}
+.apexcharts-toolbar {
+  display: none !important;
 }

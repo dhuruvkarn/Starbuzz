@@ -1,0 +1,98 @@
+.popularMainDiv {
+  padding: 1rem;
+  background-color: white;
+  height: 450px;
+  /* height: auto; */
+  margin-top: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.popularMainHeadingDiv {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.popularMainHeadingDivImage {
+  color: #a0a0a0;
+  height: 14px;
+  width: 14px;
+}
+.popularMainHeadingDivText {
+  font-weight: 500;
+  font-size: 18px;
+}
+.popularMainImageDiv {
+  /* border: 2px solid red; */
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+.popularMainImageFirstDiv {
+  border: 0.2px solid #a0a0a0;
+  width: 33%;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  background-color: white;
+}
+.popularMainImageFirstDivImage {
+  /* border: 1px solid red; */
+  height: 60%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.popularMainImageFirstDivImage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.popularMainImageFirstTextDiv {
+  height: 40%;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+.popularMainImageFirstTextDivFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.popularMainImageFirstTextDivSecond {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #a0a0a0;
+}
+.likeDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.popularMainImageFirstTextDivThird {
+  font-size: 12px;
+}
+.comment {
+  margin-top: 5px;
+  color: #a0a0a0;
+}
+.heart {
+  margin-top: 5px;
+  color: red;
+}
+.popularViewAll {
+  /* border: 2px solid red; */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #a0a0a0;
+  font-size: 12px;
+}
